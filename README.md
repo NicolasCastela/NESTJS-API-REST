@@ -1,5 +1,16 @@
-GET http:localhost:3000/categories
-GET http:localhost:3000/categories/1
-POST http:localhost:3000/categories
-PATCH http:localhost:3000/categories/1
-DELETE http:localhost:3000/categories
+###
+Teste de Rotas na aba api.http ou se preferir pelo insomnia
+
+devcontainer tem a rota p/ abrir o container 
+
+home/node/app
+
+1-Baixe a extensão Docker Container
+2-ctrl + p // Container 
+3- selecione a rota do docker-composer. 
+4- Rebuild.
+
+
+npm run start:dev
+
+localhost:3000
