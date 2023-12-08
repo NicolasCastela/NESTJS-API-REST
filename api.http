@@ -8,11 +8,10 @@ GET http://localhost:3000/categories/2
 ###
 
 POST http://localhost:3000/categories
-
 Content-Type: application/json
 
 {
-    "name": "Categoria3"
+    "name": "Categoria 1"
 }
 
 
