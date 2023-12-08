@@ -33,10 +33,19 @@ constructor(private prisma: PrismaService){}
   }
 
   update(id: number, updateCategoryDto: UpdateCategoryDto) {
-    return `This action updates a #${id} category`;
+    return this.prisma.category.update({
+      where: {
+        id,
+      },
+      data: updateCategoryDto,
+    }) ;
   }
 
   remove(id: number) {
-    return `This action removes a #${id} category`;
+    return this.prisma.category.delete({
+      where:{
+        id,
+      }
+    });
   }
 }
